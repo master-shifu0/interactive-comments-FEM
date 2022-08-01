@@ -1,0 +1,60 @@
+:root {
+    --moderate-blue: hsl(238, 40%, 52%);
+    --soft-red: hsl(358, 79%, 66%);
+    --light-grayish-blue: hsl(239, 57%, 85%);
+    --pale-red: hsl(357, 100%, 86%);
+    --grayish-blue: hsl(211, 10%, 45%);
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    padding-inline: 1.75rem;
+    padding-block: .75rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: min-content;
+}
+
+.delete {
+    background-color: var(--soft-red);
+    width: max-content;
+}
+
+.delete:hover {
+    background-color: var(--pale-red);
+}
+
+.create,
+.update {
+    background-color: var(--moderate-blue);
+}
+
+.create:hover,
+.update:hover {
+    background-color: var(--light-grayish-blue);
+}
+
+.cancel {
+    width: max-content;
+    background-color: var(--grayish-blue);
+
+}
+
+.cancel:hover {
+    background-color: hsl(211, 10%, 75%);
+}
+
+.update {
+    justify-self: end;
+}
+
+@media (max-width:400px) {
+
+    .delete,
+    .cancel {
+        padding-inline: 1.25rem;
+    }
+}

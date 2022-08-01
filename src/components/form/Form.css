@@ -1,0 +1,43 @@
+.create-form {
+    grid-template-columns: max-content minmax(2rem, 40rem) max-content;
+    align-items: start;
+    gap: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border-radius: .5rem;
+
+}
+
+.create-form>img {
+    width: 2rem;
+}
+
+textarea {
+    min-height: 6rem;
+    outline-color: hsl(239, 58%, 85%);
+    border-color: hsl(223, 19%, 93%);
+    resize: none;
+    border-radius: .5rem;
+    padding: .75rem;
+}
+
+textarea::placeholder {
+    font-size: 1rem;
+}
+
+@media (max-width:600px) {
+    .create-form>img {
+        grid-row: 2;
+        align-self: center;
+    }
+
+    .create-form>button {
+        /* grid-row: 2; */
+        justify-self: end;
+        grid-column: -2/-1;
+    }
+
+    .create-form>textarea {
+        grid-column: 1/-1;
+    }
+}

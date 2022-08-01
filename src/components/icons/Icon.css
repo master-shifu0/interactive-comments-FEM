@@ -1,0 +1,35 @@
+:root {
+    --moderate-blue: hsl(238, 40%, 52%);
+    --soft-red: hsl(358, 79%, 66%);
+}
+
+.icon {
+    background-color: transparent;
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.icon--delete {
+    fill: #ED6368;
+    color: var(--soft-red);
+}
+
+.icon--reply,
+.icon--edit {
+    fill: #5357B6;
+    color: var(--moderate-blue);
+}
+
+.icon--delete:hover {
+    fill: hsl(357, 100%, 86%);
+    color: hsl(357, 100%, 86%);
+}
+
+.icon--reply:hover,
+.icon--edit:hover {
+    fill: hsl(239, 57%, 85%);
+    color: hsl(239, 57%, 85%);
+}
