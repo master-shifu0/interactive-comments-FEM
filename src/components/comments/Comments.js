@@ -1,7 +1,6 @@
 import Message from "./message/Message";
 import data from "../../data.json";
 import MessageForm from "../form/Form";
-import getID from "../../utils/getId";
 import { nanoid } from "nanoid";
 
 import { useState, useEffect } from "react";
@@ -33,7 +32,7 @@ function Comments() {
 		<Message
 			comments={comments}
 			setComments={setComments}
-			getID={getID}
+			getID={() => nanoid()}
 			currentUser={data.currentUser}
 			addScore={addScore}
 			subtractScore={subtractScore}
