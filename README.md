@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/quadri101/interactive-comments-FEM)
+- Live Site URL: [live site URL](https://62f4d5f0942d2009048de6b3--spiffy-beijinho-02d854.netlify.app/)
 
 ## My process
 
@@ -131,5 +131,5 @@ I'm learning about libraries and more advanced concepts in react such as redux, 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/masterShifu-0)
-- Twitter - [@yourusername](https://www.twitter.com/_tolahni_)
+- Frontend Mentor - [@master-shifu0](https://www.frontendmentor.io/profile/master-shifu0)
+- Twitter - [@quadri101](https://www.twitter.com/quadri101)
